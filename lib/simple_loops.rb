@@ -30,8 +30,8 @@ end
     count = 0 
     while count < array.length do 
       array[count].to_s 
-      count += 1 
-      new_array.push(array[count].to_s)
+        new_array.push(array[count].to_s)
+       count += 1 
   end
   new_array
 end
